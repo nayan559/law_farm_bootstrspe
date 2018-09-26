@@ -1,0 +1,575 @@
+/*
+	========== Author Detail ========
+
+	Author: Nayan Das
+	Mobial: +8801717456425
+	Mail: nayandas559@gmail.com
+
+	=================================
+
+	============= INDEX =============
+	
+	01: Global
+	02: Header Section
+	03: Hero Section
+	04: About US Section
+	05: Practis Area Section
+	06: Meet Our Attorney Section
+	07: Our Clients Say Section
+	08: Recent Publications Section 
+	09: Frequently asked questions Section
+	10: Feel Free to Contact Section  
+	11: Footer Section 
+
+	=================================
+*/	
+
+/*	======== 01: Global CSS ========= */	
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Playfair+Display:400,400i,700,700i,900,900i');
+body{
+	margin: 0; 
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	color: #111111;
+	font-size: 16px;
+}
+section{
+	
+}
+.image-center{
+	display: block;
+	margin: 0 auto;
+}
+.no-padding{
+	padding: 0;
+	margin: 0;
+}
+h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 36px;
+}
+h2{
+	font-family: 'Playfair Display', serif;
+}
+h3{
+	font-family: 'Playfair Display', serif;
+}
+h4{
+	font-family: 'Playfair Display', serif;
+	font-size: 21px;
+}
+h5{
+	font-family: 'Playfair Display', serif;
+}
+h5{
+	font-family: 'Playfair Display', serif;
+}
+h6{
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+}
+p{
+	color: #111111;
+	font-size: 14px;
+}
+a{
+
+}
+
+/*	==== 02: Header Section ===== */	
+
+.logo{
+	display: inline-block;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.navbar-nav{
+    list-style: none;
+    font-weight: 600;
+}
+.navber-item{
+	padding-right: 18px;
+	padding-left: 18px;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: rgba(0,0,0,.8);
+	border-bottom: 4px solid #fff;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    border-bottom: 4px solid #e8bf5d;
+    color: rgba(0,0,0,.8);
+}
+
+/* ====== 03: Hero Section  ====== */
+
+.hero{
+	background-image: url(../img/img-02.png);
+	background-size: cover;
+
+	/** height: 100vh; **/
+
+}
+.hero-left{
+	padding-top: 580px;
+	color: #fff;
+	margin-left: 92px;
+	letter-spacing: 5px;
+	padding-bottom: 160px;
+}
+.hero-left-detail{
+	border-left: 3px solid #e8bf5d;
+	padding: 0px 15px;
+}
+.hero-left-detail h1{
+	font-size: 55px;
+	height: 51px;
+	font-weight: 500;
+}
+.hero-right{
+	padding-top: 583px;
+	margin-left: 306px;
+}
+.btn-hero{
+    color: #111111;
+    background-color: #e8bf5d;
+    border-color: #e8bf5d;
+    border-radius: 28px;
+    padding: 10px 28px;
+}
+.btn-hero:hover{
+	color: #111111;
+	background-color: #e8bf5d;
+	border-color: #fff;
+	transition: 0.5s;
+}
+
+/*	=== 04: About US Section ==== */	
+.about-us{
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.about-us-heading{
+	background: url(../img/img-23.png)no-repeat;
+	border-left: 3px solid #e8bf5d;
+	background-size: 140px 106px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+}
+.about-us-heading h2{
+	color: #111111;
+}
+.about-us-heading h5{
+	color: #666666;
+	width: 69%;
+	letter-spacing: 1px;
+}
+.about-us-detail {
+    padding-top: 40px;
+}
+.about-us-detail h4{
+	padding-bottom: 16px;
+	padding-top: 16px;
+}
+.year{
+    padding-top: 14px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+
+/*	== 05: Practis Area Section == */
+.practice{
+	padding-bottom: 80px;
+    padding-top: 80px;
+    background-color: #111111;
+}
+.practice-area-heading{
+	background: url(../img/img-22.png)no-repeat;
+	border-left: 3px solid #e8bf5d;
+	background-size: 140px 106px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+}
+.practice-area-heading h2{
+	color: #ffffff;
+}
+.practice-area-heading h5{
+	color: #b9b9b9;
+	width: 69%;
+	letter-spacing: 1px;
+}
+.private-client{
+	padding-top: 40px;
+}
+.fa-handshake {
+	color: #e8bf5d;
+	font-size: 44px;
+}
+.private-client-left h4{
+	color: #fff;
+}
+.private-client-left p{
+	color: #fff;
+}
+.private-client-left-bottom{
+	padding-top: 20px;
+}
+.fa-tv{
+	color: #e8bf5d;
+	font-size: 44px;
+}
+.private-client-right h4{
+	color: #fff;
+}
+.private-client-right p{
+	color: #fff;
+}
+.fa-wrench{
+	color: #e8bf5d;
+	font-size: 44px
+}
+.fa-home{
+	color: #e8bf5d;
+	font-size: 44px
+}
+
+
+/*	== 06: Meet Our Attorney Section == */	
+.meet-our-attorney{
+	padding-bottom: 80px;
+    padding-top: 80px;
+}
+.meet-our-attorney-heading{
+	background: url(../img/img-21.png)no-repeat;
+	border-left: 3px solid #e8bf5d;
+	background-size: 140px 106px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+}
+.meet-our-attorney-heading h2{
+	color: #111111;
+}
+.meet-our-attorney-heading h5{
+	color: #666666;
+	width: 69%;
+	letter-spacing: 1px;
+}
+.meet-our-attorney-lawyers{
+	padding-top: 40px;
+}
+.lawyers {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 2px;
+}
+.meet-our-attorney-lawyers h6{
+	padding-top: 10px;
+}
+.meet-our-attorney-lawyers p{
+
+}
+
+/*== 07: Our Clients Say Section == */	
+.our-claint-say{
+	background-image: url(../img/img-16.png);
+	background-size: cover;
+	padding-bottom: 80px;
+    padding-top: 80px;
+}
+.our-claint-say-heading{
+	background: url(../img/img-20.png)no-repeat;
+	border-left: 3px solid #e8bf5d;
+	background-size: 140px 106px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+}
+.our-claint-say-heading h2{
+	color: #ffffff;
+}
+.our-claint-say-heading h5{
+	color: #b9b9b9;
+	width: 69%;
+	letter-spacing: 1px;
+}
+.our-claint-say-detail{
+	padding-top: 40px;
+}
+.claint-img{
+	background-color: #e8bf5d;
+	width: 370px;
+	height: 305px;
+	box-shadow: 14px 14px 0px #e8bf5d;
+}
+.claint-say{
+
+}
+.claint-say h6{
+	color: #fff;
+}
+.claint-say p{
+	color: #fff;
+	line-height: 24px;
+	padding-bottom: 30px;
+	width: 85%;
+}
+.cotation{
+	text-align: right;
+}
+.fa-quote-left{
+	color: #787878;
+	font-size: 38px;
+}
+.next{
+	padding-top: 32px;
+	text-align: center;
+}
+.next ul li{
+	list-style: none;
+	display: inline;
+}
+.fa-circle{
+	font-size: 12px;
+	color: #fff;
+	padding-left: 4px;
+}
+
+/* == 08: Recent Publications Section == */
+.recent-publications{
+	padding-bottom: 80px;
+    padding-top: 80px;
+}
+.recent-publications-heading{
+	background: url(../img/img-19.png)no-repeat;
+	border-left: 3px solid #e8bf5d;
+	background-size: 140px 106px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+}
+.recent-publications-heading h2{
+	color: #111111;
+}
+.recent-publications-heading h5{
+	color: #666666;
+	width: 69%;
+	letter-spacing: 1px;
+}
+.recent-publications-detail{
+	padding-top: 40px;
+}
+.clints {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 2px;
+}
+.body{
+
+}
+.body-title{
+	padding-top: 15px;
+	color: #111111;
+}
+.body-detail p{
+	color: #666666;
+}
+.body-comments{
+	border-bottom: 2px solid #e8bf5d;
+}
+.fa-comments{
+
+}
+.fa-share{
+
+}
+
+/*	== 09: Frequently asked questions Section == */
+.faq-section{
+	padding-bottom: 80px;
+    padding-top: 80px;
+    background-color: #111111;
+}
+.faq-section-heading{
+	background: url(../img/img-18.png)no-repeat;
+	border-left: 3px solid #e8bf5d;
+	background-size: 140px 106px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+}
+.faq-section-heading h2{
+	color: #ffffff;
+}
+.faq-section-heading h5{
+	color: #b9b9b9;
+	width: 69%;
+	letter-spacing: 1px;
+}
+.faq-section-detail{
+	padding-top: 40px;
+}
+.faq-detail-left-one{
+	border-bottom: 0.5px solid #e8bf5d;
+}
+.faq-detail-left{
+	border-bottom: 0.5px solid #e8bf5d;
+}
+.faq-detail-left-one p{
+	color: #e8bf5d;
+}
+.faq-detail-left p{
+	color: #fff;
+	padding-top: 9px;
+}
+.minus{
+    color: #fff;
+    padding-left: 142px;
+}
+.plus-one{
+	padding-left: 202px;
+}
+.plus-two{
+	padding-left: 320px;
+}
+.plus-three{
+	padding-left: 141px;
+}
+.plus-four{
+	padding-left: 289px;
+}
+.plus-five{
+	padding-left: 293px;
+}
+.faq-section-detail-right{
+	background-color: #e8bf5d;
+	padding: 34px 41px;
+	border-radius: 3px;
+}
+.faq-section-detail-right p{
+	color: #111111;
+}
+/*	== 10: Feel Free to Contact Section  == */	
+.contuct{
+	padding-bottom: 80px;
+    padding-top: 80px;
+}
+.contuct-heading{
+	background: url(../img/img-17.png)no-repeat;
+	border-left: 3px solid #e8bf5d;
+	background-size: 140px 106px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 15px;
+}
+.contuct-heading h2{
+	color: #111111;
+}
+.contuct-heading h5{
+	color: #666666;
+	width: 69%;
+	letter-spacing: 1px;
+}
+.contuct-detail{
+	padding-top: 40px;
+}
+.box-shadow{
+	background-color: #fff;
+	box-shadow: -3px -2px 40px #bfbfbf;
+	border-radius: 3px;
+	width: 855px;
+	height: 396px;
+	padding-top: 39px;
+}
+.form-group{
+	
+}
+.left{
+    border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    box-shadow: none;
+    border-bottom: 1px solid #b9b9b9;
+    border-radius: 0;
+    outline: none;
+    font-size: 14px;
+	color: #b9b9b9;
+	width: 90%;
+	margin: 0 auto;
+	padding: 13px;
+}
+.textarea{
+	border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+    box-shadow: none;
+    border-bottom: 1px solid #b9b9b9;
+    border-radius: 0;
+    outline: none;
+    font-size: 14px;
+	color: #b9b9b9;
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+}
+.btn-faq{
+	color: #111111;
+	background-color: #e8bf5d;
+	border-color: #e8bf5d;
+	border-radius: 28px;
+	padding: 10px 28px;
+	margin-left: 19px;
+	margin-top: 40px;
+}
+.btn-faq:hover{
+	color: #111111;
+	background-color: #e8bf5d;
+	border-color: #535353;
+	transition: 0.5s;
+}
+.google-map{
+	padding-top: 0px;
+	margin-left: 58px;
+	background-color: #000;
+	width: 300px;
+	height: 300px;
+	box-shadow: -15px 15px 1px #e8bf5d;
+}
+
+/** === 11: Footer Section === **/
+.footer{
+	padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: #111111;
+}
+.footer-left{
+	color: #fff;
+	text-align: inherit;
+}
+.footer-right{
+	color: #fff;
+	text-align: right;
+}
+.footer-right li{
+	list-style: none;
+	display: inline;
+	padding: 0px 5px;
+}
+
+
+
